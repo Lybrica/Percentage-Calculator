@@ -1,10 +1,6 @@
 #NoTrayIcon
 #SingleInstance Ignore
-VarSetCapacity( AndMask, 32*4, 0xFF ), VarSetCapacity( XorMask, 32*4, 0 )
-hIcon := DllCall("CreateCursor", Uint,0, Int,0, Int,0, Int,32, Int,32, Uint,&AndMask, Uint,&XorMask )
 Gui, +LastFound
-SendMessage, 0x80, 0, hIcon    ; Titlebar Icon
-SendMessage, 0x80, 1, hIcon    ; Alt+Tab Icon
 
 
 Gui, Font, S20 CDefault, Arista 2.0
