@@ -12,10 +12,10 @@ Gui, Color, FFFFFF
 
 Gui, Add, Edit, x42 y59 w110 h40 Center Number r1 vFirst1,
 Gui, Add, Edit, x412 y59 w120 h40 Center Number r1 vFirst2,
-Gui, Add, Text, x572 y59 w120 h41 Center vFirst3,
+Gui, Add, Edit, x572 y59 w120 h41 Center vFirst3,
 Gui, Add, Edit, x172 y119 w110 h4 Center Number r1 vSecond1, 
 Gui, Add, Edit, x412 y119 w120 h40 Center Number r1 vSecond2, 
-Gui, Add, Text, x572 y119 w120 h41 Center vSecond3, 
+Gui, Add, Edit, x572 y119 w120 h41 Center vSecond3, 
 
 Gui, Font, S20 CDefault, COCOMAT Heavy
 
